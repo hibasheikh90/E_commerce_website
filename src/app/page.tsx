@@ -7,6 +7,7 @@ import Dress from "@/components/dress";
 import Sell from "@/components/sell";
 import Flow from "@/components/flow";
 import Footer from "@/components/footer";
+import Zara from "@/components/zara";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <Barands/>
       <Cards/>
       <Dress/>
-      
+      <Zara/>
       <Sell/>
       <Flow/>
       <Footer/>

@@ -7,9 +7,11 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa6";
-function Footer  ()  {
+
+const Footer = () => {
   return (
     <>
+      {/* Footer Upper Section */}
       <div className="wrapper grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 py-24 mt-10 ">
         <div className=" py-5 ">
           <Image src={"/logo.webp"} width={180} height={34} alt="logo" />
@@ -69,11 +71,12 @@ function Footer  ()  {
           </ul>
         </div>
       </div>
+      {/* footer Lower section */}
       <div className="bg-black w-full">
         <div className="wrapper md:flex md:justify-between">
           <p className="text-white py-3 text-center">© 2022 Coral , Inc. </p>
           <Image
-            src={`/icon 1.webp`}
+            src={`/footer/icons-pay.png`}
             width={283}
             height={24}
             alt="Payments"
@@ -87,4 +90,5 @@ function Footer  ()  {
     </>
   );
 };
+
 export default Footer;

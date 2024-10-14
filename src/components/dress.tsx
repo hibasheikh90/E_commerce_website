@@ -12,12 +12,12 @@ function Dress ()  {
                 <p className='text-black text-lg hover:font-bold'>T-Shirts</p>
                 <p className='text-black text-lg hover:font-bild'>Hoodies</p>
                 <p className='text-black text-lg hover:font-bold'>Jeckets</p>
+              </div>
                 <div>
                   <button className= 'bg-black text-white flex items-center justify-center p-2 px-5 gap-3 w-auto hover:bg-gray-400 hover:text-black rounded-sm duration-200'>
                   <FaFilter />
                     Filter</button>
                 </div>
-              </div>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
                 <div className='py-2 mx-auto'>

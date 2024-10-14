@@ -19,8 +19,8 @@ function Flow  ()  {
             <h3 className="font-bold text-4xl text-center  md:mt-10">Or Subcribe To The NewsLetters</h3>
         </div>
         <div className='md:flex items-center justify-center py-16 md:space-x-5'>
-            <input className="py-2 w-full md:w-[50%] border-b-2 border-black focus:outline-none  bg-transparent" type='text'name='emai' placeholder='Email Address'/>
-            <button className='"py-2 w-full md:w-[10%] border-b-2 border-black hover:bg-black hover:text-white hover:duration-400"'>SUBMIT</button>
+            <input className="py-2 w-full md:w-[40%] border-b-2 border-black focus:outline-none  bg-transparent" type='text'name='emai' placeholder='Email Address'/>
+            <button className="pb-2 w-full md:w-[8%] border-b-2 border-black hover:bg-black hover:text-white hover:duration-400">SUBMIT</button>
         </div>
     </div>
   )
