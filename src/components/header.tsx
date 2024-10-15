@@ -8,7 +8,7 @@ function Header () {
     <div className='bg-gray-100'>
 
     <div className='wrapper flex justify-between items-center '>
-      <div className='hidden md:flex justify-between gap-x-4 py-4 wrapper'>
+      <div className='flex justify-between gap-x-4 py-4 '>
         <BiSearch/>
       </div>
         <div className='flex justify-center py-4 '>
